@@ -11,9 +11,8 @@ import requests
 
 def main():
     
-    print(requests.__version__)
-    r = requests.get('https://raw.githubusercontent.com/Senyu-Li/Onmyoji/master/lab1.py')
-    print(r.text)
+    print(sys.version)
+
 
 if __name__ == '__main__':
     main()
